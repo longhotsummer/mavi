@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  // stage the location for a redirect, and go to the maain app page
+  sessionStorage.redirect = location.pathname + location.search + location.hash;
+  location = '/';
+</script>
+</head>
+</html>
